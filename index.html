@@ -2,82 +2,165 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loja de eletronicos</title>
+    <title> livros de regras </title>
     <link rel="stylesheet" href="css/bootstrap.css">
-</head>
+<link rel="stylesheet" href="meuestilo.css">
+  </head>
 <body>
-    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">kkkk</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">lil <span class="sr-only"></span></a>
-            <a class="nav-item nav-link active" href="#">livrosvros <span class="sr-only"></span></a>
-            <a class="nav-item nav-link active" href="#">liliiiiiiiiii <span class="sr-only"></span></a>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Loja</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>  
+            </ul>           
           </div>
         </div>
-      </nav>
-        </div>
-      </nav>
-    </section>
-    <main>
-      <header>
-        <h1> loja de eletronicos </h1>
+    </nav>
+
+  
+      </div>
+  </div>
+  
+  
+    <header class="container mt-5">
+        <h1 class="titulo-espaco" >Livros de Regras</h1>
     </header>
-    <section>
-    <h2>produtos em destaque </h2>
-    <section>
-        <div class="row"> 
-        <div class="col"></div>
-    </div>>
-</section>
-    <section>
-        <div class="card-group">
-            <div class="card">
-              <img src="img/tormenta.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-              </div>
+    <main class="container mt-4">        
+        <section>
+            <h2>Livros em Destaque</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <img src="img/tormenta.jpg" class="card-img-top" alt="Tormenta">
+                    <div class="card-body">
+                      <h5 class="card-title">Produto 1</h5>
+                      <p class="card-text">Tormenta</p>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProduto1">Veja mais detalhes...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <img src="img/ORDEM.jpg" class="card-img-top" alt="Ordem Paranormal">
+                    <div class="card-body">
+                      <h5 class="card-title">Produto 2</h5>
+                      <p class="card-text">Ordem Paranormal</p>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProduto2">Veja mais detalhes...</a>
+                    </div>
+                  </div> 
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <img src="img/ccc2.png" class="card-img-top" alt="Suplemento">
+                    <div class="card-body">
+                      <h5 class="card-title">Produto 3</h5>
+                      <p class="card-text">Suplemento</p>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProduto3">Veja mais detalhes...</a>
+                    </div>
+                  </div>
+                </div> 
             </div>
-            <div class="card">
-              <img src="img/ORDEM.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </section>
+
+        <div class="modal fade" id="modalProduto1" tabindex="-1" aria-labelledby="modalProduto1Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalProduto1Label">Produto 1: Tormenta</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              <div class="modal-body">
+                O livro "Tormenta" é uma obra de regras que permite a criação de mundos com sistemas próprios, facilitando a experiência de mestrar uma mesa de RPG. Com ele, você pode desenvolver suas próprias aventuras, personalizar personagens e explorar diversas possibilidades de jogo. Além disso, "Tormenta" oferece uma rica ambientação, com detalhes sobre mitologia, criaturas e culturas, tornando a experiência ainda mais imersiva.
               </div>
-            </div>
-            <div class="card">
-              <img src="img/old-dd-5e-manual-dos-monstros-biblioteca-c3a9lfica.jpg" class="..." alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                
               </div>
             </div>
           </div>
-    </section>
-    <section>
+        </div>
+
+        <div class="modal fade" id="modalProduto2" tabindex="-1" aria-labelledby="modalProduto2Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalProduto2Label">Produto 2: Ordem Paranormal</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                "Ordem Paranormal" é uma obra que explora o sobrenatural, proporcionando novas mecânicas e opções para jogadores e mestres. Este livro permite que você adentre um mundo de mistérios, investigações e criaturas além da compreensão humana, criando histórias emocionantes e desafiadoras.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProduto3" tabindex="-1" aria-labelledby="modalProduto3Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalProduto3Label">Produto 3: Suplemento</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Este suplemento oferece novas regras, personagens e cenários que expandem as possibilidades de suas campanhas. É uma adição valiosa para mestres que desejam introduzir novos desafios e aventuras em suas sessões de jogo.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <section>
+          <h2>Formulário de Contato</h2>
+          <form>
+            <div class="mb-3 form-espaco">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 form-espaco">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Me mantenha logado</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </section>
+
+
+        
+          
       
-    </section>
+      
     </main>
-    <footer>
-        <p>&copy; 2024 loja de eletronicos </p>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap.bundle.js"></script>
+    <footer class="container-fluid">
+        <p>&copy; 2024 Loja de Livros de RPG</p>
     </footer>
+
+   
+  
+    
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
